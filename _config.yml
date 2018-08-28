@@ -1,1 +1,13 @@
+# Jekyll configuration
+
+name: King D The MC
+
+# Url is currently
+url: http://kingdthemc.com
+#url: http://localhost:4000
+
 theme: jekyll-theme-hacker
+
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
