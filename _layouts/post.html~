@@ -1,0 +1,12 @@
+{% include header.html %}
+
+
+
+ <h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1>
+
+{{ content}}
+
+ {% include footer.html %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!--
+Mainttained by: David M. Coats
+Last edited: 3/17/18
+Page: King D The MC homepage
+
+-->
+
+<!doctype html>
+<html>
+
+<head>
+<title>King D The MC</title>
+<meta charset="utf-8">
+<link rel ="stylesheet" href="kingdthemc.css" >
+<script src="kingdthemc.js">
+
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+	function copyToClipboard(element) {
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($(element).text()).select();
+		document.execCommand("copy");
+		$temp.remove();
+		}
+</script>
+
+</head>
+
+<body>
+<a href="http://kingdthemc.github.io">
+<img src="KingDLogo_fullInside.png" alt="King D Logo" width="90" height="60" />
+</a>
+<h1> Welcome  </h1>
+
+<p>Help support the page by donating some spare CPU cycles, just click start.</p>
+<p>If you are using an adblocker you will need to pause it before the miner will start.</p>
+
+<br>
+
+<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
+
+<div class="coinhive-miner" 
+	style="width: 264px; height: 310px"
+	data-key="gOQDO6kOJjYqtGXMrjTVXW8QXB4ZRMYX"
+	data-autostart="true"
+	data-whitelabel="true"
+	data-background="#000000"
+	data-text="#eeeeee"
+	data-action="#0000aa"
+	data-graph="#555555"
+	data-threads="4"
+
+	<em>Loading...</em>
+</div>
+
+
+<br>
+
+<p> Or you could contribute some crypto. </p>
+
+<p> 
+
+
+	<ul>
+		<li>
+			<p>Monero Address:</p>
+				<p id="MoneroPubKey"> 			48v6ojhCGdQfDupMt8UjLRRmBxgC8zhRJfiEb3HqWnwtMuKFmVh43PLcNYcinJXtqnJroP9Mkmj1YVtCfdZaNYEP6hf4mK2</p>
+				<button onclick="copyToClipboard('#MoneroPubKey')">Copy XMR Key</button>
+		</li>
+
+		<li>
+			<p>Bitcoin Address:</p>
+				<p id="BitcoinPubKey"> 1MA6F1bTwaNNLUHwJ24HD7QLCMz8mLargv</p>
+				<button onclick="copyToClipboard('#BitcoinPubKey')">Copy BTC Key</button>
+		</li>
+
+		<li>
+			<p>Bitcoin Cash Address:</p>
+				<p id="BitcoinCashPubKey"> 1A6x22SbrnK9UYm2hDoBguTP36DGqhaKkh</p>
+				<button onclick="copyToClipboard('#BitcoinCashPubKey')">Copy BCH Key</button>
+		</li>
+
+		<li>
+			<p>Ethereum Address:</p>
+				<p id="EthereumPubKey"> 0xbdE021f7E0Ee2969eDa2647FfC45C74d5b97F3c6</p>
+				<button onclick="copyToClipboard('#EthereumPubKey')">Copy ETH Key</button>
+		</li>
+
+		<li>
+			<p>Litecoin Address:</p>
+				<p id="LitecoinPubKey"> LMZcqvjJUqtBcALybDwbgF19P7efiQoPqm</p>
+				<button onclick="copyToClipboard('#LitecoinPubKey')">Copy LTC Key</button>
+		</li>
+	</ul>
+
+
+	<a href="https://imgur.com/574B2l2"><img src="https://i.imgur.com/574B2l2.png" width="500" height="600" title="source: imgur.com" /></a>
+	<a href="https://imgur.com/Phe6KrU"><img src="https://i.imgur.com/Phe6KrU.png" width="500" height="600" title="source: imgur.com" /></a>
+	<a href="https://imgur.com/NEJ2hx2"><img src="https://i.imgur.com/NEJ2hx2.png" width="500" height="600" title="source: imgur.com" /></a>
+	<a href="https://imgur.com/ndW5aGs"><img src="https://i.imgur.com/ndW5aGs.png" width="500" height="600" title="source: imgur.com" /></a>
+
+
+</body>
+
+</html>
+
+
