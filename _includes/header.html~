@@ -12,8 +12,22 @@
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="{{'assets/css/kingdthemc.css' | relative_url }}" rel ="stylesheet">
+<link href="{{'/assets/css/kingdthemc.css' | relative_url }}" rel ="stylesheet">
 <script src="{{'assets/js/kingdthemc.js' | relative_url }}" > </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+	function copyToClipboard(element) {
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($(element).text()).select();
+		document.execCommand("copy");
+		$temp.remove();
+		}
+</script>
 
 
 

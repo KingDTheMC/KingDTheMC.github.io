@@ -1,5 +1,9 @@
 <footer>
 
+<!--
+ <p>{{ site.author }} &copy; {{ site.copyright }}</p>
+-
+
 
 {% include social.html %}
 
