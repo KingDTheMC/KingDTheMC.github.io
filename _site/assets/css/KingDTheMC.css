@@ -1,0 +1,82 @@
+/*
+Mainttained by: David M. Coats
+Last edited: 15/08/18  DD/MM/YY
+Page: King D The MC homepage
+CSS
+**/
+
+#Top_navi {
+	/*text-align:center;*/
+
+}
+
+#Top_navi p {
+	text-align:left;
+
+}
+
+#Top_navi ul {
+	font-size: 16px;
+	text-align:right;
+}
+
+
+#Top_navi ul li {
+	display:inline-block;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+
+
+
