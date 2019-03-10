@@ -2,7 +2,7 @@
 
 <ul class="social-media">
 
-
+<!--
     {% if site.social.github %}
         <li><a title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>
         </li>
@@ -13,14 +13,16 @@
     </li>
 {% endif %}
 
- {% if site.social.instagram %}
+-->
+
+ {% if site.instagram %}
     <li>
-      <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a title="{{ site.instagram }} on Instagram" href="https://instagram.com/{{ site.instagram }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
     </li>
 {% endif %}
 
-{% if site.social.twitter %}
-    <li><a title="{{ site.social.twitter }} on Twitter" href="https://twitter.com/{{ site.social.twitter }}" class="fa fa-twitter" target="_blank"></a>
+{% if site.twitter %}
+    <li><a title="{{ site.twitter }} on Twitter" href="https://twitter.com/{{ site.twitter }}" class="fa fa-twitter" target="_blank"></a>
     </li>
 {% endif %}
 

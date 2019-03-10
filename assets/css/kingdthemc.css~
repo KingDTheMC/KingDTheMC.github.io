@@ -1,6 +1,6 @@
 /*
 Mainttained by: David M. Coats
-Last edited: 09/03/19  DD/MM/YY
+Last edited: 15/08/18  DD/MM/YY
 Page: King D The MC homepage
 CSS
 **/
@@ -40,42 +40,8 @@ CSS FOR THE TOP NAVIGATION ENDS
 **/
 
 
-/**
-
-CSS FOR THE FOOTER BEGINS
-
-**/
-
-footer {
-  margin: 75px 0 35px;
-}
 
 
-/**
-
-CSS FOR THE FOOTER ENDS
-
-**/
-
-
-/**
-
-CSS FOR THE SOCIAL MEDIA BUTTONS BEGINS
-
-**/
-
-.social-media {
-
-  text-align: center;
-
-}
-
-.social-media li {
-
-	display:inline-block;
-	list-style-type:none;
-
-}
 
 .fa {
   padding: 20px;
@@ -89,6 +55,13 @@ CSS FOR THE SOCIAL MEDIA BUTTONS BEGINS
 .fa:hover {
     opacity: 0.7;
 }
+
+
+/**
+
+CSS FOR THE SOCIAL MEDIA BUTTONS BEGINS
+
+**/
 
 
 .fa-snapchat-ghost {
@@ -277,4 +250,4 @@ CSS FOR THE LIGHT BOX SLIDE SHOW END
 
 
 
-			
+
