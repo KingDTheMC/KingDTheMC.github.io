@@ -70,4 +70,4 @@ exclude:
 #Collections
 collections:
  blackbook:
-  output:true
+  output: true
