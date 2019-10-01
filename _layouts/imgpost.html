@@ -1,0 +1,34 @@
+---
+layout: page
+---
+<center>
+<article class="blackbook">
+
+	{% if page.picture %}
+		<img src="{{ page.picture }}" width="320" height="240" alt="Photo title {{ page.title | downcase }}">
+	{% endif %}
+
+	<h1>Blackbook: {{ page.title }}</h1>
+
+	<div class="blackbook-media {{ page.media | downcase }}">
+		{{ page.media }}
+	</div>
+
+	<div class="blackbook-style {{ page.style | downcase }}">
+		{{ page.style }}
+	</div>
+
+	<div>
+		{{ content }}
+	</div>
+
+</article>
+</center>
+
+
+
+
+
+
+
+
