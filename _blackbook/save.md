@@ -2,7 +2,7 @@
 layout: imgpost
 title: Save
 media: Pencil
-style: Hollow
+style: 
 headline: We are them
 picture: /assets/images/save.png
 
