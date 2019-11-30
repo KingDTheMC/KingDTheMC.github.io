@@ -2,7 +2,7 @@
 layout: imgpost
 title: Dripping
 media: Pencil
-style: Hollow
+style: 
 headline: Who Got It
 picture: /assets/images/fresh.png
 

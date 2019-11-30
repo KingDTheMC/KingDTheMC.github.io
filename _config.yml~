@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: King D The MC
-email: kingdthemc@gmail.com
+email: info@kingdthemc.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm only here so I don't get fined
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,7 +34,7 @@ google_analytics: UA-128038081-1
 
 
 social:
-twitter_username: kingdthemc
+twitter: kingdthemc
 instagram: kingdthemc
 #stackoverflow: kingdthemc
 #tumblr: kingdthemc
@@ -64,3 +64,13 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+
+#Collections
+collections:
+ blackbook:
+  output: true
+ shoppro:
+  output:true
+

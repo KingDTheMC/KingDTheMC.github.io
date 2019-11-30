@@ -71,3 +71,6 @@ exclude:
 collections:
  blackbook:
   output: true
+ shoppro:
+  output:true
+
