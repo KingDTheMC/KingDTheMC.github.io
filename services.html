@@ -5,9 +5,9 @@ title: Services
 ---
 
 <ul>
-	{% for shoppro in site.shopser %}
+	{% for shopser in site.shopser %}
 		<li>
-			<a href="{{ shoppro.url }}">{{ shopser.title }} </a>
+			<a href="{{ shopser.url }}">{{ shopser.title }} </a>
 			- {{ shopser.headline }}
 		</li>
 	{% endfor %}
