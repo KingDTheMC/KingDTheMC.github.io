@@ -73,4 +73,6 @@ collections:
   output: true
  shoppro:
   output: true
+ shopser:
+  output: true
 
