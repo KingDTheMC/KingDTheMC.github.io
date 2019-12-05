@@ -1,0 +1,14 @@
+---
+layout: page
+title: Services
+
+---
+
+<ul>
+	{% for shoppro in site.shopser %}
+		<li>
+			<a href="{{ shoppro.url }}">{{ shopser.title }} </a>
+			- {{ shopser.headline }}
+		</li>
+	{% endfor %}
+</ul>
