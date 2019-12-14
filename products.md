@@ -4,11 +4,17 @@ title: "Products"
 
 ---
 
-<ul>
+<center>
+<table>
 	{% for shoppro in site.shoppro %}
-		<li>
-			<a href="{{ shoppro.url }}">{{ shoppro.title }} </a>
-			- {{ shoppro.headline }}
-		</li>
+		<tr>
+			<td><p>
+			<a href="{{ shoppro.url }}"><img src="{{ shoppro.picture }}" width="300" height="400" title="King D Logo T" /> <br> <center> {{ shoppro.title }} - {{ shoppro.headline }} </center>
+
+</a>
+			
+			</p></td>
+		</tr>
 	{% endfor %}
-</ul>
+</table>
+</center>
