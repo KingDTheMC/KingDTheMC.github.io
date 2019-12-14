@@ -11,19 +11,23 @@ layout: page
 	<h1>Shop: {{ page.title }}</h1>
 
 	<div class="shoppro-shirt {{ page.shirt | downcase }}">
-		{{ page.shirt }}
+		Shirt: {{ page.shirt }}
 	</div>
 
 	<div class="shoppro-print {{ page.print | downcase }}">
-		{{ page.print }}
+		Print: {{ page.print }}
 	</div>
 		
 	<div class="shoppro-price {{ page.price | downcase }}">
-		{{ page.price }}
+		Price: {{ page.price }}
 	</div>
 
 	<div>
 		{{ content }}
+	</div>
+
+	<div>
+		{% include shipinfo.html %}
 	</div>
 
 	<center><h1>Payment Options</h1></center>
