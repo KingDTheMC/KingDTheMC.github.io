@@ -13,14 +13,23 @@ title: Gaming
 
 	      <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
 	      <script type="text/javascript">
-	        new Twitch.Embed("twitch-embed", {
+	        var embedTwitchPlayer = new Twitch.Embed("twitch-embed", {
 	        width: 854,
 	        height: 480,
 	        channel: "kingdthemc",
+		layout: "video",
+		autoplay: false,
+
 	        // Only needed if this page is going to be embedded on other websites
 	        //parent: ["embed.kingdthemc.com", "othersite.example.com"]
 	        });
-    		</script>
-    </body>
+    	
+		embedTwitchPlayer.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+			var myTwitchPlayer = embedTwitchPlayer.getPlayer();
+			myTwitchPlayer.play();
+		});
+
+	      </script>
+    </body>i
 </html>
 
