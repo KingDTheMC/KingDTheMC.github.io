@@ -107,6 +107,11 @@ CSS FOR THE SOCIAL MEDIA BUTTONS BEGINS
   color: white;
 }
 
+.fa-twitch {
+  background: #6441a4;
+  color: white;
+}
+
 .fa-youtube {
   background: #bb0000;
   color: white;
