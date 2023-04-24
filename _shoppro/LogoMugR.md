@@ -5,5 +5,5 @@ mug: White
 print: Black
 price: $10.00
 headline: Logo Mug Right 
-picture: /assets/images/kdml.png
+picture: /assets/images/kdmr.png
 ---
