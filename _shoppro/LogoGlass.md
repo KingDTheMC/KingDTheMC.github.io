@@ -2,7 +2,7 @@
 layout: propostb
 title: KingD Logo Glass
 headline: 
-
+picture: /assets/images/kdml.png
 ---
 
 
