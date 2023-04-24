@@ -1,8 +1,8 @@
 ---
 layout: propostb
 title: KingD Logo Glass
-headline: 
-picture: /assets/images/kdml.png
+headline: KingD Logo Glass
+picture: /assets/images/kdwg.png
 ---
 
 
