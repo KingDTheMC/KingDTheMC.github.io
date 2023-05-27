@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<center>
+	<article class="shoppro">
+
+			{% if page.picture %}
+					<img src="{{ page.picture }}" width="420" height="480" alt="Photo title {{ page.title | downcase }}">
+						{% endif %}
+
+
+		<div>
+			{{ content }}
+		</div>
+
+	</article>
+</center>
