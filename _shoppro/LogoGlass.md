@@ -1,5 +1,5 @@
 ---
-layout: propost
+layout: spropost
 title: KingD Logo Glass
 headline: KingD Logo Glass
 picture: /assets/images/kdwg.png
