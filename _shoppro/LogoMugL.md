@@ -1,9 +1,9 @@
 ---
-layout: propost
+layout: spropost
 title: KingD Logo Mug Left
-mug: White
-print: Black
-price: $10.00
-headline: Logo Mug Left
+mug: 
+print: 
+price: 
+headline: 
 picture: /assets/images/kdml.png
 ---
