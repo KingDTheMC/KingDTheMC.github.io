@@ -11,7 +11,8 @@ picture: /assets/images/shop/proD/logot.png
 
 
 
-<div id='product-component-1685823963975'></div>
+
+<div id='product-component-1685826238274'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -40,7 +41,7 @@ picture: /assets/images/shop/proD/logot.png
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '8367606071596',
-        node: document.getElementById('product-component-1685823963975'),
+        node: document.getElementById('product-component-1685826238274'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
