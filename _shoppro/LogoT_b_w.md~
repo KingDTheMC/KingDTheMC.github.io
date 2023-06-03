@@ -1,12 +1,17 @@
 ---
 layout: spropost
-title: KingD Logo Glass
-headline: KingD Logo Glass
-picture: /assets/images/shop/proD/kdwg.png
+title: KingD Logo T Short Sleeve
+shirt: 
+print: 
+price: 
+headline: 
+picture: /assets/images/shop/proD/logot.png
 ---
 
 
-<div id='product-component-1682368379520'></div>
+
+
+<div id='product-component-1685823963975'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -34,8 +39,8 @@ picture: /assets/images/shop/proD/kdwg.png
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '8284205941036',
-        node: document.getElementById('product-component-1682368379520'),
+        id: '8367606071596',
+        node: document.getElementById('product-component-1685823963975'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -48,15 +53,18 @@ picture: /assets/images/shop/proD/kdwg.png
         }
       },
       "button": {
-        "border-radius": "22px",
-        "background-color": "#697cac",
         ":hover": {
           "background-color": "#5f709b"
         },
+        "background-color": "#697cac",
         ":focus": {
           "background-color": "#5f709b"
-        }
+        },
+        "border-radius": "22px"
       }
+    },
+    "text": {
+      "button": "Add to cart"
     }
   },
   "productSet": {
@@ -71,7 +79,9 @@ picture: /assets/images/shop/proD/kdwg.png
   "modalProduct": {
     "contents": {
       "img": false,
-      "imgWithCarousel": true
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
     },
     "styles": {
       "product": {
@@ -82,29 +92,37 @@ picture: /assets/images/shop/proD/kdwg.png
         }
       },
       "button": {
-        "border-radius": "22px",
-        "background-color": "#697cac",
         ":hover": {
           "background-color": "#5f709b"
         },
+        "background-color": "#697cac",
         ":focus": {
           "background-color": "#5f709b"
-        }
+        },
+        "border-radius": "22px"
       }
+    },
+    "text": {
+      "button": "Add to cart"
     }
   },
+  "option": {},
   "cart": {
     "styles": {
       "button": {
-        "border-radius": "22px",
-        "background-color": "#697cac",
         ":hover": {
           "background-color": "#5f709b"
         },
+        "background-color": "#697cac",
         ":focus": {
           "background-color": "#5f709b"
-        }
+        },
+        "border-radius": "22px"
       }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
     }
   },
   "toggle": {

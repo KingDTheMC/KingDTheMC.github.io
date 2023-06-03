@@ -5,7 +5,7 @@ mug:
 print: 
 price: 
 headline: 
-picture: /assets/images/kdml.png
+picture: /assets/images/shop/proD/kdml.png
 ---
 
 
