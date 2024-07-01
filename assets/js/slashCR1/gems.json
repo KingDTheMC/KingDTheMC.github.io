@@ -1,0 +1,158 @@
+{
+	"blue":{
+		"img": {
+			"0": "img/blue0.png",
+			"1": "img/blue1.png",
+			"2": "img/blue2.png",
+			"3": "img/blue3.png",
+			"4": "img/blue4.png",
+			"5": "img/blue5.png",
+			"6": "img/blue6.png",
+			"7": "img/blue7.png"
+		}
+	},
+
+	"green":{
+		"img": {
+			"0": "img/green0.png",
+			"1": "img/green1.png",
+			"2": "img/green2.png",
+			"3": "img/green3.png",
+			"4": "img/green4.png",
+			"5": "img/green5.png",
+			"6": "img/green6.png",
+			"7": "img/green7.png"
+		}
+	},
+
+	"purple":{
+		"img": {
+			"0": "img/purple0.png",
+			"1": "img/purple1.png",
+			"2": "img/purple2.png",
+			"3": "img/purple3.png",
+			"4": "img/purple4.png",
+			"5": "img/purple5.png",
+			"6": "img/purple6.png",
+			"7": "img/purple7.png"
+		}
+	},
+
+	"black":{
+		"img": {
+			"0": "img/black0.png",
+			"1": "img/black1.png",
+			"2": "img/black2.png",
+			"3": "img/black3.png",
+			"4": "img/black4.png",
+			"5": "img/black5.png",
+			"6": "img/black6.png",
+			"7": "img/black7.png"
+		}
+	},
+
+	"red":{
+		"img": {
+			"0": "img/red0.png",
+			"1": "img/red1.png",
+			"2": "img/red2.png",
+			"3": "img/red3.png",
+			"4": "img/red4.png",
+			"5": "img/red5.png",
+			"6": "img/red6.png",
+			"7": "img/red7.png"
+		}
+	},
+
+	"yellow":{
+		"img": {
+			"0": "img/yellow0.png",
+			"1": "img/yellow1.png",
+			"2": "img/yellow2.png",
+			"3": "img/yellow3.png",
+			"4": "img/yellow4.png",
+			"5": "img/yellow5.png",
+			"6": "img/yellow6.png",
+			"7": "img/yellow7.png"
+		}
+	},
+
+	"blues":{
+		"img": {
+			"0": "img/blues0.png",
+			"1": "img/blues1.png",
+			"2": "img/blues2.png",
+			"3": "img/blues3.png",
+			"4": "img/blues4.png",
+			"5": "img/blues5.png",
+			"6": "img/blues6.png",
+			"7": "img/blues7.png"
+		}
+	},
+
+	"greens":{
+		"img": {
+			"0": "img/greens0.png",
+			"1": "img/greens1.png",
+			"2": "img/greens2.png",
+			"3": "img/greens3.png",
+			"4": "img/greens4.png",
+			"5": "img/greens5.png",
+			"6": "img/greens6.png",
+			"7": "img/greens7.png"
+		}
+	},
+
+	"purples":{
+		"img": {
+			"0": "img/purples0.png",
+			"1": "img/purples1.png",
+			"2": "img/purples2.png",
+			"3": "img/purples3.png",
+			"4": "img/purples4.png",
+			"5": "img/purples5.png",
+			"6": "img/purples6.png",
+			"7": "img/purples7.png"
+		}
+	},
+
+	"blacks":{
+		"img": {
+			"0": "img/blacks0.png",
+			"1": "img/blacks1.png",
+			"2": "img/blacks2.png",
+			"3": "img/blacks3.png",
+			"4": "img/blacks4.png",
+			"5": "img/blacks5.png",
+			"6": "img/blacks6.png",
+			"7": "img/blacks7.png"
+		}
+	},
+
+	"reds":{
+		"img": {
+			"0": "img/reds0.png",
+			"1": "img/reds1.png",
+			"2": "img/reds2.png",
+			"3": "img/reds3.png",
+			"4": "img/reds4.png",
+			"5": "img/reds5.png",
+			"6": "img/reds6.png",
+			"7": "img/reds7.png"
+		}
+	},
+
+	"yellows":{
+		"img": {
+			"0": "img/yellows0.png",
+			"1": "img/yellows1.png",
+			"2": "img/yellows2.png",
+			"3": "img/yellows3.png",
+			"4": "img/yellows4.png",
+			"5": "img/yellows5.png",
+			"6": "img/yellows6.png",
+			"7": "img/yellows7.png"
+		}
+	}
+
+}

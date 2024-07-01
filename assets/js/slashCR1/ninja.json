@@ -1,0 +1,66 @@
+{
+	"run":{
+		"img": {
+			"0": "img/tile000.png",
+			"1": "img/tile001.png",
+			"2": "img/tile015.png",
+			"3": "img/tile001.png"
+		}
+	},
+	"runL":{
+		"img": {
+			"0": "limg/tile006.png",
+			"1": "limg/tile005.png",
+			"2": "limg/tile019.png",
+			"3": "limg/tile005.png"
+		}
+	},
+	"sword":{
+		"img": {
+			"0": "img/tile042.png",
+			"1": "img/tile043.png",
+			"2": "img/tile044.png",
+			"3": "img/tile045.png"
+		}
+	},
+	"swordL":{
+		"img": {
+			"0": "limg/tile048.png",
+			"1": "limg/tile047.png",
+			"2": "limg/tile046.png",
+			"3": "limg/tile045.png"
+		}
+	},
+	"punch":{
+		"img": {
+			"0": "img/tile014.png",
+			"1": "img/tile015.png",
+			"2": "img/tile016.png",
+			"3": "img/tile017.png"
+		}
+	},
+	"punchL":{
+		"img": {
+			"0": "limg/tile020.png",
+			"1": "limg/tile019.png",
+			"2": "limg/tile018.png",
+			"3": "limg/tile017.png"
+		}
+	},
+	"bow":{
+		"img": {
+			"0": "img/tile070.png",
+			"1": "img/tile071.png",
+			"2": "img/tile072.png",
+			"3": "img/tile073.png"
+		}
+	},
+	"bowL":{
+		"img": {
+			"0": "limg/tile076.png",
+			"1": "limg/tile075.png",
+			"2": "limg/tile074.png",
+			"3": "limg/tile073.png"
+		}
+	}
+}
