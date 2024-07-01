@@ -1,0 +1,64 @@
+<!doctype html>
+
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.name }}{% if page.title %} | {{ page.title }} {% endif %}</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="{{'/assets/css/kingdthemc.css' | relative_url }}" rel ="stylesheet">
+<script src="{{'assets/js/kingdthemc.js' | relative_url }}" > </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+<!--
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="{{ '' | relative_url }}/">{{ site.name }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+-->
+
+            <div class="navbar-nav">
+<a href="https://kingdthemc.com">
+<img src="/assets/images/KingDLogo_fullInside.png" alt="King D Logo" width="90" height="60" border="0" />
+</a>
+                <a class="nav-item nav-link" href="{{ '' | relative_url }}/">/home</a>
+                <a class="nav-item nav-link" href="{{ 'shop.html' | relative_url }}">/shop</a>
+                <a class="nav-item nav-link" href="{{ 'archive.html' | relative_url }}">/archive</a>
+                <a class="nav-item nav-link" href="{{ 'about.html' | relative_url }}">/about</a>
+                <a class="nav-item nav-link" href="{{ 'contact.html' | relative_url }}">/contact</a>
+		<a class="nav-item nav-link" href="{{ 'gaming.html' | relative_url }}">/gaming</a>
+		<a class="nav-item nav-link" href="{{ 'model.html' | relative_url }}">/model</a>
+                <a class="nav-item nav-link" href="{{ 'support.html' | relative_url }}">/support</a>
+            </div>
+        </div>
+    </div>
+</nav>
