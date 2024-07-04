@@ -12,6 +12,8 @@ title: Security
 	<li>
 	Do not ever share your password information with anyone. 
 	</li>
-
+	<li>
+	Choose a unique, sufficiently complex password for every website.
+	</li>
 	</ul>
 </p>
