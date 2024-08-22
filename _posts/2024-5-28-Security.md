@@ -15,5 +15,8 @@ title: Security
 	<li>
 	Choose a unique, sufficiently complex password for every website.
 	</li>
+	<li>
+	Remember to keep software up-to-date.
+	</li>
 	</ul>
 </p>
