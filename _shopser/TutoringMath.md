@@ -3,7 +3,7 @@ layout: spropost
 title: Tutoring Math
 shirt:
 print:
-price:
+price: $60
 headline:
 picture: /assets/images/shop/serD/mathCounter.png
 ---
