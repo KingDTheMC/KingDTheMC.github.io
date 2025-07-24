@@ -3,7 +3,7 @@ layout: spropost
 title: Martial Arts Instruction (Private)
 shirt:
 print:
-price:
+price: $200
 headline:
 picture: /assets/images/shop/serD/
 ---
