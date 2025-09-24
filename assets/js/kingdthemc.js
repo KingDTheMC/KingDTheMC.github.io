@@ -1,4 +1,38 @@
+//creating dark theme toggle switch
+const toggleButton = document.getElementById('dark-mode-toggle');
+const body = document.body;
 
+//Function to enable dark mode
+	function enableDarkMode() {
+		body.classList.add('dark-mode');
+		localStorage.setItem('theme', 'dark');
+	}
+
+//Function to dsiable dark mode
+	function disableDarkMode() {
+		body.calssList.remove('dark-mode');
+		localStorage.setItem('theme', 'light');
+	}
+
+//Check for saved theme on page load
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'dark') {
+	enableDarkMode();
+} else {
+	disableDarkMode(); //Ensure light mode is active if no preference
+}
+
+//Add event listener to the button
+toggleButton.addEventListener('click', () => {
+	if (body.classList.contains('dark-mode')) {
+		disableDarkMode();
+	} else {
+		enableDarkMode();
+	}
+});
+
+
+//Copy to clipboard fucntion
 	function copyToClipboard(element) {
 		var $temp = $("<input>");
 		$("body").append($temp);
