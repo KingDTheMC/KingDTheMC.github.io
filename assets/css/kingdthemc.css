@@ -38,7 +38,33 @@ CSS FOR THE TOP NAVIGATION BEGINS
 CSS FOR THE TOP NAVIGATION ENDS
 
 **/
+/**
+ *CSS FOR THE NIGHT MODE TOGGLE BUTTON BEGINS
+ **/
 
+#themeToggle{
+	border: 1px solid var(--border);
+	background: transparent;
+	color: var(--text);
+	cursor: pointer;
+}
+
+#themeToggle i{
+	font-size: 16px;
+}
+
+[data-theme="dark"] #themeToggle{
+	border-color: rgba(255,255,255,.16);
+	color: rgba(233,237,242,.70);
+}
+
+[data-theme="dark"] #themeToggle:hover{
+	background: rgba(255,255,255,.06);
+	color: rgba(233,237,242,.90);
+}
+
+/**CSS FOR THE NIGHT MODE TOGGLE BUTTON ENDS
+ **/
 
 /**
 
