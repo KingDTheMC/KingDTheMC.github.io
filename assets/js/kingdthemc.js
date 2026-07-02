@@ -1,4 +1,8 @@
+
+
+//Edited out old js for night mode
 //creating dark theme toggle switch
+/*
 const toggleButton = document.getElementById('dark-mode-toggle');
 const body = document.body;
 
@@ -30,7 +34,7 @@ toggleButton.addEventListener('click', () => {
 		enableDarkMode();
 	}
 });
-
+*/
 
 //Copy to clipboard fucntion
 	function copyToClipboard(element) {
