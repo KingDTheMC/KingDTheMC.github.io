@@ -16,11 +16,12 @@
       : 'light';
   }
 
+if (btn){
   btn.addEventListener('click', () => {
     const current = root.getAttribute('data-theme') || 'light';
     setTheme(current === 'dark' ? 'light' : 'dark');
   });
-
+}
   // Initialize on load
   setTheme(getInitialTheme());
 
