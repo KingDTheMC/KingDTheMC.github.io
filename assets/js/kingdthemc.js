@@ -1,7 +1,7 @@
 
 
 //New code for night mode added 2026/07/02
-(() => {
+//(() => {
   const root = document.documentElement;
   const btn = document.getElementById('themeToggle');
 
@@ -13,7 +13,7 @@
   function getInitialTheme() {
     const saved = localStorage.getItem('theme');
     if (saved === 'light' || saved === 'dark') return saved;
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
       ? 'dark'
       : 'light';
   }
@@ -26,7 +26,7 @@ if (btn){
 }
   // Initialize on load
   setTheme(getInitialTheme());
-})();
+//})();
 
 //Edited out old js for night mode
 //creating dark theme toggle switch
