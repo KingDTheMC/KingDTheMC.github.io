@@ -9,6 +9,7 @@
     root.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
   }
+console.log("theme:", root.getAttribute('data-theme'));
 
   function getInitialTheme() {
     const saved = localStorage.getItem('theme');
