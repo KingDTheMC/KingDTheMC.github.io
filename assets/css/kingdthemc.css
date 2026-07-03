@@ -54,7 +54,7 @@ CSS FOR THE TOP NAVIGATION ENDS
     --border: rgba(255,255,255,.16);/**#2a2f3a;**/
   }
 
-  body, navbar-nav, #Top_navi,.numbertext,.modal-content,.close, .prev,.next, .numbertext, .caption-container, .prev:hover, .next:hover {
+  body, navbar-nav, i, #Top_navi, #themeToggle, .numbertext, .modal-content, .close, .prev, .next, .numbertext, .caption-container, .prev:hover, .next:hover {
     background: var(--bg);
     color: var(--text);
   }
