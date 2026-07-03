@@ -5,11 +5,7 @@ Page: King D The MC homepage
 CSS
 **/
 
-/**
-
-CSS FOR THE TOP NAVIGATION BEGINS
-
-**/
+/**CSS FOR THE TOP NAVIGATION BEGINS**/
 
 #Top_navi {
 	/*text-align:center;*/
@@ -33,14 +29,8 @@ CSS FOR THE TOP NAVIGATION BEGINS
 }
 
 
-/**
-
-CSS FOR THE TOP NAVIGATION ENDS
-
-**/
-/**
- *CSS FOR THE NIGHT MODE TOGGLE BUTTON BEGINS
- **/
+/**CSS FOR THE TOP NAVIGATION ENDS**/
+/** *CSS FOR THE NIGHT MODE TOGGLE BUTTON BEGINS**/
 
   :root {
     --bg: #ffffff;
@@ -54,7 +44,7 @@ CSS FOR THE TOP NAVIGATION ENDS
     --border: rgba(255,255,255,.16);/**#2a2f3a;**/
   }
 
-  body, navbar-nav, i, #Top_navi, #themeToggle, .numbertext, .modal-content, .close, .prev, .next, .numbertext, .caption-container, .prev:hover, .next:hover {
+  body, navbar-nav, i, #Top_navi, #themeToggle {
     background: var(--bg);
     color: var(--text);
   }
@@ -79,11 +69,7 @@ CSS FOR THE TOP NAVIGATION ENDS
 	font-size: 16px;
 	line-height: 1;
 }
-/*Editing out dub
-[data-theme="dark"] #themeToggle{
-	border-color: rgba(255,255,255,.16);
-	color: rgba(233,237,242,.70);
-}*/
+
 
 #themeToggle:hover{
 	background: rgba(127,127,127,.12)
@@ -193,149 +179,4 @@ CSS FOR THE SOCIAL MEDIA BUTTONS BEGINS
 CSS FOR THE SOCIAL MEDIA BUTTONS END
 
 **/
-
-
-/**
-
-CSS FOR THE LIGHT BOX SLIDE SHOW BEGIN
-
-**/
-
-
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Create four equal columns that floats next to eachother */
-.column {
-  float: left;
-  width: 20%;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: var(--bg);/*black;*/
-}
-
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: var(--bg);/*#fefefe;*/
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-/* The Close Button */
-.close {
-  color: var(--text);/*white;*/
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: var(--text);/*#999;*/
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* Hide the slides by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: var(--text);/*white;*/
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: var(--bg);/*rgba(0, 0, 0, 0.8);*/
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: var(--text);/*#f2f2f2;*/
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Caption text */
-.caption-container {
-  text-align: center;
-  background-color: var(--bg);/*black;*/
-  padding: 2px 16px;
-  color: var(--text);/*white;*/
-}
-
-img.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-/**
-
-CSS FOR THE LIGHT BOX SLIDE SHOW END
-
-**/
-
-
-
-
-			
+		
