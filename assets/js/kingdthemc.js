@@ -1,5 +1,7 @@
 
+
 //New code for night mode added 2026/07/02
+(() => {
   const root = document.documentElement;
   const btn = document.getElementById('themeToggle');
 
@@ -24,6 +26,7 @@ if (btn){
 }
   // Initialize on load
   setTheme(getInitialTheme());
+})();
 
 //Edited out old js for night mode
 //creating dark theme toggle switch
