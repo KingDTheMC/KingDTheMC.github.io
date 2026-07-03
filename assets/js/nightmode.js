@@ -1,5 +1,3 @@
-
-//<script>
 //New code for night mode added 2026/07/02
 document.addEventListener('DOMConetntLoaded', () => {
   const root = document.documentElement;
@@ -29,5 +27,3 @@ if (btn){
   // Initialize on load
   setTheme(getInitialTheme());
 });
-//</script>
-
