@@ -1,5 +1,5 @@
 //New code for night mode added 2026/07/02
-document.addEventListener('DOMConetntLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const root = document.documentElement;
   const btn = document.getElementById('themeToggle');
 
