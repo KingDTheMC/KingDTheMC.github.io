@@ -1,6 +1,6 @@
 ---
 layout: spropost
-title: Sometimes you just have to Severe
+title: Sometimes you just have to 
 shirt:
 print:
 price:
