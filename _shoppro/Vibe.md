@@ -1,6 +1,6 @@
 ---
 layout: spropost
-title: Sometimes you just have to Severe
+title: I am just here for D 
 shirt:
 print:
 price:
