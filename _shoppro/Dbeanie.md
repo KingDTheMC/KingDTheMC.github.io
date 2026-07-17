@@ -5,7 +5,7 @@ shirt:
 print:
 price:
 headline:
-picture: /assets/images/shop/proD/Dbeanie.png
+picture: /assets/images/shop/proD/Dbeanie.jpg
 ---
 
 

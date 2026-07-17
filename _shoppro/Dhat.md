@@ -5,7 +5,7 @@ shirt:
 print:
 price:
 headline:
-picture: /assets/images/shop/proD/Dhat.png
+picture: /assets/images/shop/proD/Dhat.jpg
 ---
 
 <div id='product-component-1783632207394'></div>
