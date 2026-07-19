@@ -2,7 +2,7 @@
 layout: spropost
 title: D Crowned logo Shorts
 headline: D Shorts
-picture: /assests/images/shop/proD/Dlogoshortsb.jpg
+picture: /assets/images/shop/proD/Dlogoshortsb.jpg
 ---
 
 <div id='product-component-1784477452829'></div>
