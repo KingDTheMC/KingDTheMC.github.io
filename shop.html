@@ -9,6 +9,13 @@ title: Shop
 
 
 <center>
+
+   	<li>
+		<a href="{{ 'products.html' | relative_url }}">Products</a>
+	</li><li>
+		<a href="{{ 'services.html' | relative_url }}">Services</a>
+	</li>
+
 <table>
 	{% for shoppro in site.shoppro %}
 		<tr>
@@ -24,10 +31,4 @@ title: Shop
 </center>
 
 
-   	<li>
-		<a href="{{ 'products.html' | relative_url }}">Products</a>
-	</li>
 
-	<li>
-		<a href="{{ 'services.html' | relative_url }}">Services</a>
-	</li>
